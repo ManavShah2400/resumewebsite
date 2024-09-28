@@ -1,0 +1,97 @@
+#skill {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.aboutmeSection {
+    width: 100vw;
+    max-width: 70vw;
+}
+
+.aboutDetail {
+    max-width: 50rem;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 0 2rem;
+}
+
+.aboutHead {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skillsHead {
+    margin: 5rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.SkillBars {
+    max-width: 80%;
+    margin: 1.5rem 4rem;
+    text-align: left;
+}
+
+.SkillBar {
+    max-width: 60vw;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.websiteicon {
+    height: 5rem;
+    width: 5rem;
+}
+
+.SkillBarText {
+    font-weight: 300;
+    margin: 0 2rem;
+}
+
+/* @media screen and (max-width: 900px) {
+    .aboutmeSection {
+        width: 100vw;
+        max-width: 60vw;
+    }
+} */
+
+@media screen and (max-width: 900px) {
+    .SkillBar {
+        max-width: 100vw;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .aboutmeSection{
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #skill{
+        margin: 3rem 1rem;
+    }
+    .SkillBar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .websiteicon{
+        margin-bottom: 1rem;
+    }
+    .SkillBars{
+        max-width: 70%;
+    }
+}

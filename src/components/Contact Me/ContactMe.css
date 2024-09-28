@@ -1,0 +1,55 @@
+#contactmeSection{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.contactmeHead{
+    margin: 5rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+
+.name, .email, .msg{
+    background-color: rgb(50, 50, 50);
+    color: white; 
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5rem auto;
+    width: 100vw;
+    max-width: 40rem;
+}
+
+.SubmitBtn{    
+    background-color: white;
+    width: 100vw;
+    max-width: 8rem;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:750px) {
+    .contactform{
+        max-width: 60vw;
+    }
+    .name, .email, .msg{
+        width: 60vw;
+    }
+}
