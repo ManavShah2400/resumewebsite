@@ -6,27 +6,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     margin: 3rem auto;
 }
-
+.ExperienceSection {
+    width: 100vw;
+    max-width: 70vw;
+}
 .ExpHead {
     margin: 5rem 0;
     font-size: 3rem;
     font-weight: 600;
 }
-
+/* 
 .ExpBars {
     max-width: 80%;
     margin: 1.5rem 6rem;
     text-align: left;
-}
+} */
 
 .ExpBar {
     max-width: 60vw;
     display: flex;
     background-color: rgb(50, 50, 50);
-    margin: 2rem;
+    margin: 2rem 0rem;
     padding: 1rem;
     border-radius: 0.5rem;
 }
@@ -47,6 +50,10 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
+}
+
+.ExpBarHeadd{
+    text-align: left;
 }
 
 /* @media screen and (max-width: 900px) {
@@ -73,8 +80,7 @@
     .ExpBar {
         flex-direction: column;
     }
-
-    .ExpBars {
-        max-width: 70%;
+    .ExperienceSection{
+        max-width: 90vw;
     }
 }
