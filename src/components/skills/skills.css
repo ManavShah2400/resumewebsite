@@ -1,7 +1,7 @@
 #skill {
     overflow: hidden;
     width: 100vw;
-    max-width: 70rem;
+    max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +11,13 @@
 }
 
 .aboutmeSection {
-    width: 100vw;
-    max-width: 70vw;
+    width: 90vw;
+    font-weight: 600;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .aboutDetail {
@@ -26,18 +31,17 @@
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
-    margin-bottom: 1rem;
 }
 
 .skillsHead {
-    margin: 5rem 0;
+    margin: 3rem 0;
     font-size: 3rem;
     font-weight: 600;
 }
 
 .SkillBars {
     max-width: 80%;
-    margin: 1.5rem 0rem;
+    /* margin: 1.5rem 0rem; */
     text-align: left;
 }
 

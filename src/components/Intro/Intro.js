@@ -8,7 +8,7 @@ const Intro = () => {
         <section id='Intro'>
             <div className='IntroContent'>
                 <span className='Hello'>Hello,</span>
-                <span className='IntroText'>I'm <span className='IntroName'>Manav Shah</span><br />React Developer</span>
+                <span className='IntroText'>I'm <span className='IntroName'>Manav Shah</span><br />Software Developer</span>
                 <p className='IntroPara'>
                     I am a skilled and passionate react developer with experience in creating <br />visually appealing and user-friendly websites and mobile application.
                 </p>
