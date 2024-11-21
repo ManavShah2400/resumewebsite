@@ -11,7 +11,7 @@ const Exp = () => {
                         <div className='ExpBarText'>
                             <div className='ExpBarHead'>
                                 <div className='ExpBarHeadd'>
-                                    <h2>Flutter Developer</h2>
+                                    <h2>Mobile Application Developer</h2>
                                     <h3>BlueBox Infosoft Pvt. Ltd., Gujurat, India</h3>
                                 </div>
                                 <p>Jun 2021 – Nov 2022</p>
@@ -23,7 +23,7 @@ const Exp = () => {
                                     <li>Designed and implemented responsive and adaptive UIs to provide a seamless and
                                         consistent user experience across various devices and screen sizes.</li>
                                     <li> Continuously improved app quality by staying current with the latest trans and technologies in
-                                        Flutter and mobile development.</li>
+                                        mobile application development.</li>
                                     <li>Regularly released updates that included bug fixes, performance enhancements, and
                                         new features to keep the application competitive and user- friendly.</li>
                                 </ui>
