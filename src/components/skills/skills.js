@@ -9,9 +9,11 @@ const Skills = () => {
             <div className='aboutmeSection'>
                 <span className='aboutHead'>What I do</span><br />
                 <span className='aboutDetail'>
-                    Dedicated full-stack developer with a strong foundation in React and React Native, emphasizing creating seamless user experiences across web and mobile platforms.
-                    <br/><br/>Mobile application developer with 2 years of hands-on experience in developing and deploying Flutter application using Dart as a Programming language.
-                    <br/>
+                    Highly motivated and results-oriented Full Stack Developer with 3 years of experience in designing, developing, and deploying robust and scalable web and mobile applications.
+                    <br /><br /> Proven expertise in Java, Python, JavaScript, and a strong foundation in frontend technologies like React, Angular, and backend frameworks like Spring Boot. Experience in cross-platform development using React Native and Flutter, along
+                    with proficiency in cloud platforms (GCP, AWS) and DevOps principles. Eager to contribute to innovative projects and continuously learn new
+                    technologies to stay at the forefront of the industry.
+                    <br />
                 </span>
                 <span className='skillsHead'>Programming Skills</span>
                 <div className='SkillBars'>
@@ -36,3 +38,4 @@ const Skills = () => {
 }
 
 export default Skills
+
