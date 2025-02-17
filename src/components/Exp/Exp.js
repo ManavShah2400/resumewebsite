@@ -11,6 +11,33 @@ const Exp = () => {
                         <div className='ExpBarText'>
                             <div className='ExpBarHead'>
                                 <div className='ExpBarHeadd'>
+                                    <h2>Full-Stack Developer</h2>
+                                    <h3>Target, United States</h3>
+                                </div>
+                                <p>Jul 2023 – Present</p>
+                            </div>
+                            <div className='expdetails'>
+                                <ui>
+                                    <li>Developed and deployed a high-performance e-commerce platform, utilizing React for frontend,
+                                        Spring Boot for backend, and a MySQL database, resulting in a 15% increase in user conversion rates
+                                        and a 10% reduction in page load times.</li>
+                                    <li>Successfully migrated a critical legacy application to a cloud-native architecture on AWS, leveraging
+                                        Docker, Kubernetes, and CI/CD pipelines, leading to a 30% reduction in operational costs and a 20%
+                                        improvement in application performance (reduced latency by 15%).</li>
+                                    <li>Designed and implemented a RESTful API, utilizing Node.js and Express.js, to power a mobile
+                                        application, resulting in a 20% increase in user engagement, a 10% reduction in API response times,
+                                        and improved data synchronization across platforms.</li>
+                                    <li>Architectured and integrated a machine learning model, utilizing Python, TensorFlow, and NumPy, into
+                                        a recommendation system, resulting in a 5% increase in average order value, a 20% improvement in
+                                        customer satisfaction, and a 12% increase in click-through rates for recommended products.</li>
+                                </ui>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='ExpBar'>
+                        <div className='ExpBarText'>
+                            <div className='ExpBarHead'>
+                                <div className='ExpBarHeadd'>
                                     <h2>Mobile Application Developer</h2>
                                     <h3>BlueBox Infosoft Pvt. Ltd., Gujurat, India</h3>
                                 </div>
@@ -32,29 +59,7 @@ const Exp = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='ExpBar'>
-                        <div className='ExpBarText'>
-                            <div className='ExpBarHead'>
-                                <div className='ExpBarHeadd'>
-                                    <h2>Java Developer</h2>
-                                    <h3>Evozard Pvt. Ltd., Gujurat, India</h3>
-                                </div>
-                                <p>Jan 2019 – May 2020</p>
-                            </div>
-                            <div className='expdetails'>
-                                <ui>
-                                    <li>Engineered and deployed a high-performance Spring Boot microservice that improved data processing speed by 15%, resulting in
-                                        significant cost savings for the organization.</li>
-                                    <li>Implemented a robust Java-based solution to integrate with third-party APIs, enhancing data exchange capabilities and improving
-                                        overall system efficiency.</li>
-                                    <li>Successfully debugged and resolved critical production issues in a high-traffic Java application, demonstrating strong problem-solving
-                                        and debugging skills.</li>
-                                    <li>Conceptualized and enacted a scalable solution for handling high-volume data transactions, utilizing multi-threading and concurrency
-                                        concepts to optimize performance and ensure system stability.</li>
-                                </ui>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>

@@ -65,6 +65,25 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='ProjBar'>
+                        <div className='ProjBarText'>
+                            <h2>Machine Learning-Powered Recommendation System</h2>
+                            <h4>Python</h4>
+                            <div className='Projdetails'>
+                                <ui>
+                                    <li>Developed a personalized product recommendation system for an online retail platform using Python and machine learning libraries
+                                        such as scikit-learn, TensorFlow.</li>
+                                    <li>Implemented collaborative filtering and content-based filtering algorithms to analyze user behavior and product attributes,
+                                        generating relevant product suggestions.</li>
+                                    <li>Built a RESTful API using Flask (Python) to expose the recommendation engine to the frontend application.</li>
+                                    <li>Deployed the model as a microservice using Docker and orchestrated it with Kubernetes for scalability and efficient resource
+                                        management.</li>
+                                    <li>Continuously monitored model performance and re-trained the model periodically using new user data to improve recommendation
+                                        accuracy.</li>
+                                </ui>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
