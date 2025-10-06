@@ -8,7 +8,7 @@ const ContactMe = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_3apohsk', 'template_6yt5oj3', form.current, {
+      .sendForm('service_3apohsk', 'template_242r9n3', form.current, {
         publicKey: '0-7CW9qHLAa1bJ5Fd',
       })
       .then(
