@@ -6,10 +6,10 @@ const ContactMe = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-   
+
     emailjs
-      .sendForm('service_jcc1shb', 'template_rx4532g', form.current, {
-        publicKey: 'JpLRxVy-i8_KhkTZC',
+      .sendForm('service_3apohsk', 'template_6yt5oj3', form.current, {
+        publicKey: '0-7CW9qHLAa1bJ5Fd',
       })
       .then(
         () => {
@@ -19,6 +19,7 @@ const ContactMe = () => {
         },
         (error) => {
           console.log('FAILED...', error.text);
+          alert('Failed to send email.');
         },
       );
   };
